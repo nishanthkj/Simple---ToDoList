@@ -30,6 +30,7 @@ function Hero() {
           {todos.map((todo, index) => (
             <li key={index}>{todo}</li>
           ))}
+          
           </ol>
         </div>
       </div>
