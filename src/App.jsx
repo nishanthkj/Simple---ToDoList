@@ -8,7 +8,7 @@ function App() {
   <BrowserRouter>
   <Header/>
   <Routes>
-    <Route path="/Simple---ToDoList" element={<Hero/>}></Route>
+    <Route path="*" element={<Hero/>}></Route>
 
   </Routes>
   <Footer/>
